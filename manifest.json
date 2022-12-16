@@ -9,6 +9,26 @@
       "default_icon": "icons/48.png",
       "default_title": "Organize Windows and Tabs"
    },
+   "commands": {
+      "merge_windows_and_sort_tabs": {
+         "description": "Merge windows and sort tabs"
+      },
+      "merge_windows": {
+         "description": "Merge windows"
+      },
+      "sort_tabs": {
+         "description": "Sort tabs"
+      },
+      "close_tabs_from_this_domain": {
+         "description": "Close tabs from this domain"
+      },
+      "move_tabs_from_this_domain_to_this_window": {
+         "description": "Move tabs from this domain to this window"
+      },
+      "_execute_browser_action": {
+         "description": "Default action"
+      }
+   },
    "homepage_url": "https://github.com/fthdgn/chrome_organize_windows_tabs/",
    "description": "Organize Windows and Tabs",
    "icons": {
@@ -25,5 +45,5 @@
       "contextMenus",
       "storage"
    ],
-   "version": "1.3.0"
+   "version": "1.4.0"
 }
